@@ -1,0 +1,3 @@
+import ProdukSegmentPage from "./ProdukSegmentPage";
+const Militer = () => <ProdukSegmentPage title="NalarXR untuk Militer" subtitle="Simulasi pertahanan, taktik, dan pelatihan militer berbasis XR." features={["Simulasi medan tempur virtual", "Pelatihan taktik dan strategi", "Simulasi senjata dan kendaraan militer", "Pelatihan medis lapangan", "Command & Control simulation"]} packages={[{ name: "Unit Pack", desc: "Pelatihan unit kecil", price: "Hubungi Kami" }, { name: "Battalion Pack", desc: "Pelatihan skala besar", price: "Hubungi Kami" }, { name: "Custom Defense", desc: "Solusi khusus pertahanan", price: "Hubungi Kami" }]} />;
+export default Militer;

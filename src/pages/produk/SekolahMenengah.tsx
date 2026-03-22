@@ -1,0 +1,3 @@
+import ProdukSegmentPage from "./ProdukSegmentPage";
+const SekolahMenengah = () => <ProdukSegmentPage title="NalarXR untuk Sekolah Menengah" subtitle="Solusi XR untuk SMP dan SMA dengan konten sains, matematika, dan humaniora." features={["Konten sesuai Kurikulum Merdeka SMP/SMA", "Lab virtual sains lengkap", "Simulasi sejarah dan geografi", "Mode ujian dan evaluasi", "Integrasi LMS sekolah"]} packages={[{ name: "Starter", desc: "10 headset + 30 modul", price: "Hubungi Kami" }, { name: "Standard", desc: "20 headset + 60 modul", price: "Hubungi Kami" }, { name: "Premium", desc: "40 headset + semua modul", price: "Hubungi Kami" }]} />;
+export default SekolahMenengah;

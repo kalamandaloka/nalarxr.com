@@ -1,0 +1,3 @@
+import ProdukSegmentPage from "./ProdukSegmentPage";
+const SekolahKejuruan = () => <ProdukSegmentPage title="NalarXR untuk Sekolah Kejuruan" subtitle="Simulasi praktik kejuruan untuk semua jurusan SMK." features={["12+ jurusan tersedia", "Simulasi alat dan mesin industri", "Sertifikasi kompetensi digital", "Konten DUDI-ready", "Portal monitoring progress"]} packages={[{ name: "Per Jurusan", desc: "10 headset + 1 jurusan", price: "Hubungi Kami" }, { name: "Multi Jurusan", desc: "20 headset + 3 jurusan", price: "Hubungi Kami" }, { name: "Full SMK", desc: "40 headset + semua jurusan", price: "Hubungi Kami" }]} />;
+export default SekolahKejuruan;

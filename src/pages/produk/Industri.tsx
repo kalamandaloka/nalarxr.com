@@ -1,0 +1,3 @@
+import ProdukSegmentPage from "./ProdukSegmentPage";
+const Industri = () => <ProdukSegmentPage title="NalarXR untuk Industri" subtitle="Pelatihan korporat dan pengembangan SDM berbasis Extended Reality." features={["Simulasi keselamatan kerja (K3)", "Onboarding karyawan baru", "Pelatihan teknis spesifik industri", "Assessment dan sertifikasi", "Dashboard HR analytics"]} packages={[{ name: "Team", desc: "10 headset + 5 modul", price: "Hubungi Kami" }, { name: "Enterprise", desc: "50 headset + custom modul", price: "Hubungi Kami" }, { name: "Custom", desc: "Solusi sesuai kebutuhan", price: "Hubungi Kami" }]} />;
+export default Industri;

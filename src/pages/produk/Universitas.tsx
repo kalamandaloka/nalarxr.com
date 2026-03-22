@@ -1,0 +1,3 @@
+import ProdukSegmentPage from "./ProdukSegmentPage";
+const Universitas = () => <ProdukSegmentPage title="NalarXR untuk Universitas" subtitle="Solusi XR untuk pendidikan tinggi, riset, dan laboratorium virtual." features={["Lab virtual untuk STEM", "Simulasi kedokteran dan kesehatan", "Platform riset kolaboratif", "SDK untuk pengembangan konten custom", "Integrasi dengan sistem kampus"]} packages={[{ name: "Lab Pack", desc: "15 headset + 1 fakultas", price: "Hubungi Kami" }, { name: "Campus Pack", desc: "50 headset + multi fakultas", price: "Hubungi Kami" }, { name: "Research Pack", desc: "Custom + SDK akses penuh", price: "Hubungi Kami" }]} />;
+export default Universitas;
