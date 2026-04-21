@@ -229,7 +229,7 @@ const NalarXRIndex = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-foreground mb-6">
-              <HyperText text="Ekosistem Pendidikan Vokasi" containerClassName="py-0" framerProps={{ initial: { opacity: 0 }, animate: { opacity: 1 } }} />
+              <HyperText text="Ekosistem Pendidikan Vokasi" containerClassName="py-0 justify-center" framerProps={{ initial: { opacity: 0 }, animate: { opacity: 1 } }} />
             </h2>
             <div className="h-1 w-24 bg-orange rounded-full mx-auto mb-6"></div>
             <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto text-lg">
@@ -242,7 +242,7 @@ const NalarXRIndex = () => {
             <ProductCard 
               title="Mixed Reality (MR)" 
               description="Simulasi praktik nyata dengan menggabungkan objek virtual ke lingkungan fisik. Aman, hemat biaya, dan tanpa risiko kecelakaan kerja."
-              image="https://images.unsplash.com/photo-1592478411213-61535fdd861d?auto=format&fit=crop&q=80&w=800"
+              image="/images/produk1.png"
               tags={['Immersive', 'Safety', 'Hands-on']}
               actionLabel="Pelajari MR"
               onAction={() => window.location.href = '/nalarxr/produk/mr'}
@@ -253,7 +253,7 @@ const NalarXRIndex = () => {
             <ProductCard 
               title="Interaktif Content" 
               description="Materi pembelajaran digital berbasis 3D dan gamifikasi. Visualisasi komponen mesin yang kompleks menjadi mudah dipahami."
-              image="https://images.unsplash.com/photo-1617802690992-15d93263d3a9?auto=format&fit=crop&q=80&w=800"
+              image="/images/produk2.png"
               tags={['Gamifikasi', 'Visual 3D', 'Engaging']}
               actionLabel="Lihat Konten"
               onAction={() => window.location.href = '/nalarxr/produk/interactive'}
@@ -264,7 +264,7 @@ const NalarXRIndex = () => {
             <ProductCard 
               title="Learning Management" 
               description="Sistem manajemen pembelajaran (LMS) untuk melacak progres siswa, nilai otomatis, dan analisis kompetensi secara real-time."
-              image="https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=800"
+              image="/images/produk3.png"
               tags={['Analytics', 'Tracking', 'Cloud']}
               actionLabel="Coba LMS"
               onAction={() => window.location.href = '/nalarxr/produk/lms'}
@@ -280,7 +280,7 @@ const NalarXRIndex = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-white mb-6">
-              <HyperText text="Siapa yang Membutuhkan NalarXR?" containerClassName="py-0" framerProps={{ initial: { opacity: 0 }, animate: { opacity: 1 } }} />
+              <HyperText text="Siapa yang Membutuhkan NalarXR?" containerClassName="py-0 justify-center" framerProps={{ initial: { opacity: 0 }, animate: { opacity: 1 } }} />
             </h2>
             <div className="h-1 w-24 bg-orange rounded-full mx-auto"></div>
           </div>
@@ -294,7 +294,7 @@ const NalarXRIndex = () => {
           <div className="container mx-auto px-4 py-24 relative z-10">
             <div className="text-center mb-16">
               <h2 className="font-heading font-bold text-3xl md:text-4xl text-foreground mb-6">
-              <HyperText text="Alur Pembelajaran" containerClassName="py-0" framerProps={{ initial: { opacity: 0 }, animate: { opacity: 1 } }} />
+              <HyperText text="Alur Pembelajaran" containerClassName="py-0 justify-center" framerProps={{ initial: { opacity: 0 }, animate: { opacity: 1 } }} />
               </h2>
             <div className="h-1 w-24 bg-orange rounded-full mx-auto mb-6"></div>
               <h3 className="font-heading font-bold text-2xl lg:text-3xl text-foreground/80">Standard Operating Procedure (SOP) & Alur Kompetensi</h3>
@@ -393,7 +393,7 @@ const NalarXRIndex = () => {
       <section id="gallery-section" className="py-24 bg-slate-950 w-full">
          <div className="container mx-auto px-4 mb-16 text-center">
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-white mb-6">
-              <HyperText text="Pengalaman Belajar Interaktif" containerClassName="py-0" framerProps={{ initial: { opacity: 0 }, animate: { opacity: 1 } }} />
+              <HyperText text="Pengalaman Belajar Interaktif" containerClassName="py-0 justify-center" framerProps={{ initial: { opacity: 0 }, animate: { opacity: 1 } }} />
             </h2>
             <div className="h-1 w-24 bg-orange rounded-full mx-auto mb-6"></div>
             <p className="text-gray-400 max-w-2xl mx-auto">
@@ -408,7 +408,7 @@ const NalarXRIndex = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-foreground mb-6">
-              <HyperText text="Dipercaya Oleh Institusi Pendidikan & Industri" containerClassName="py-0" framerProps={{ initial: { opacity: 0 }, animate: { opacity: 1 } }} />
+              <HyperText text="Dipercaya Oleh Institusi Pendidikan & Industri" containerClassName="py-0 justify-center" framerProps={{ initial: { opacity: 0 }, animate: { opacity: 1 } }} />
             </h2>
             <div className="h-1 w-24 bg-orange rounded-full mx-auto"></div>
           </div>
@@ -425,7 +425,7 @@ const NalarXRIndex = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="font-heading font-bold text-3xl lg:text-5xl text-white mb-6">
-              <HyperText text="Hubungi Kami" containerClassName="py-0" framerProps={{ initial: { opacity: 0 }, animate: { opacity: 1 } }} />
+              <HyperText text="Hubungi Kami" containerClassName="py-0 justify-center" framerProps={{ initial: { opacity: 0 }, animate: { opacity: 1 } }} />
             </h2>
             <div className="h-1 w-24 bg-orange rounded-full mx-auto mb-6"></div>
             <p className="text-xl text-white/80 max-w-2xl mx-auto">

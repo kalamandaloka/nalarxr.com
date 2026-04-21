@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { cn } from "@/lib/utils"
-import { ArrowRight, School, GraduationCap, Building2, Landmark, Briefcase, BookOpen } from "lucide-react"
+import { ArrowRight, School, GraduationCap, Building2, Briefcase, Shield } from "lucide-react"
 
 interface AudienceTab {
   id: string
@@ -17,6 +17,15 @@ interface AudienceTab {
 
 const audiences: AudienceTab[] = [
   {
+    id: "sd-sma",
+    label: "Sekolah SD-SMA",
+    icon: School,
+    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2070&auto=format&fit=crop",
+    title: "Pembelajaran Interaktif untuk Sekolah SD-SMA",
+    description: "Bantu siswa memahami konsep abstrak melalui visualisasi 3D yang menarik dan mudah dipahami. Guru dapat menghadirkan pengalaman belajar yang lebih aktif, menyenangkan, dan relevan untuk kelas modern.",
+    cta: "Lihat Solusi Sekolah"
+  },
+  {
     id: "smk",
     label: "SMK / Vokasi",
     icon: School,
@@ -27,7 +36,7 @@ const audiences: AudienceTab[] = [
   },
   {
     id: "politeknik",
-    label: "Politeknik & Kampus",
+    label: "Politeknik / Kampus",
     icon: GraduationCap,
     image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop",
     title: "Riset & Inovasi Perguruan Tinggi",
@@ -36,7 +45,7 @@ const audiences: AudienceTab[] = [
   },
   {
     id: "industri",
-    label: "Industri & Manufaktur",
+    label: "Industri",
     icon: Building2,
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop",
     title: "Efisiensi Onboarding & Training Karyawan",
@@ -44,13 +53,13 @@ const audiences: AudienceTab[] = [
     cta: "Optimalkan Training Karyawan"
   },
   {
-    id: "pemerintah",
-    label: "Dinas & Kementerian",
-    icon: Landmark,
-    image: "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=2089&auto=format&fit=crop",
-    title: "Pemerataan Kualitas Pendidikan Nasional",
-    description: "Solusi terukur untuk standarisasi fasilitas praktik di seluruh wilayah. Mengatasi kesenjangan peralatan antar sekolah dengan mendistribusikan laboratorium virtual yang setara dengan standar industri global.",
-    cta: "Hubungi Tim Kebijakan"
+    id: "militer",
+    label: "Militer",
+    icon: Shield,
+    image: "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?q=80&w=2070&auto=format&fit=crop",
+    title: "Simulasi Taktis untuk Pelatihan Militer",
+    description: "Latihan skenario operasional dengan simulasi imersif yang aman, terukur, dan dapat diulang. Tingkatkan kesiapan personel melalui evaluasi objektif berbasis performa.",
+    cta: "Eksplor Solusi Militer"
   },
   {
     id: "lkp",
@@ -61,15 +70,6 @@ const audiences: AudienceTab[] = [
     description: "Tawarkan program pelatihan bersertifikat dengan nilai tambah teknologi immersive. Tarik lebih banyak peserta dengan metode pembelajaran yang menarik, interaktif, dan relevan dengan kebutuhan industri 4.0.",
     cta: "Upgrade Kurikulum LKP"
   },
-  {
-    id: "edutech",
-    label: "EdTech & Startups",
-    icon: BookOpen,
-    image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2070&auto=format&fit=crop",
-    title: "Integrasi Konten Pembelajaran",
-    description: "Perkaya platform edukasi Anda dengan modul 3D/AR/VR dari NalarXR. API kami memungkinkan integrasi mulus ke dalam LMS atau aplikasi pembelajaran yang sudah ada.",
-    cta: "Gabung Partner Ekosistem"
-  }
 ]
 
 export function AudienceTabs() {
